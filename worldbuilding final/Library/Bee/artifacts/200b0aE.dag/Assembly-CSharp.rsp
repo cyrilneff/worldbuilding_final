@@ -353,8 +353,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Downloaded Assets/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs"
 "Assets/Scripts/FollowTarget.cs"
+"Assets/Scripts/NextLevel.cs"
 "Assets/Scripts/PawnCollection.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/ResetOutOfBounds1.cs"
 -langversion:9.0
 
 /deterministic
