@@ -8,22 +8,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7507587395561253504, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
-      propertyPath: speed
-      value: 50000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172284077818106450, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172284077818106450, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172284077818106450, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6e4e8dd197b21455cbd64a0057f80dbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.527891
@@ -67,6 +51,26 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6e4e8dd197b21455cbd64a0057f80dbf, type: 3}
       propertyPath: m_Name
       value: Burrlorg (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6e4e8dd197b21455cbd64a0057f80dbf, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507587395561253504, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
+      propertyPath: speed
+      value: 50000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172284077818106450, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172284077818106450, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172284077818106450, guid: eb23b7ec63f5e4bd8b554ef80fa9527b, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -125,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df575c726087349dba6b1174d520751f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1000
+  speed: 500
   jumpforce: 5
 --- !u!54 &5691959169697249531
 Rigidbody:
