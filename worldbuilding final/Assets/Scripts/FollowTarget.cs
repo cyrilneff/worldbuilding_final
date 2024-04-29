@@ -29,5 +29,6 @@ public class FollowTarget : MonoBehaviour
     {
         //move our position to player position
         transform.position = target.position + offset;
+        transform.LookAt(target.position);
     }
 }
